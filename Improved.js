@@ -61,4 +61,4 @@ console.log('desceding order:', sortedSums);
 console.log('Top 3 Elves with the most calories:', top3Sums);
 
 // Highest added calorie among the three
-console.log(sumOfTop3);
+console.log('Highest added calorie among the three:', sumOfTop3);
