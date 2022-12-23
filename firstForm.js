@@ -2,23 +2,23 @@ const fs = require('fs');
 
 console.log('Calorias dos Elfos:');
 
-fs.readFile('./exemple.txt', 'utf8', (err, data) => {
+fs.readFile('./Calories/input.txt', 'utf8', (err, data) => {
   if (err) {
     console.error(err);
     return;
   }
 
   cut = data.split('\r\n\r').map((v) => v.replace('\n', ''));
-  console.log('cut', cut);
-  var Elfos = cut.map((v) => v.split(/[\s(\r\n)\r)]+/));
-  console.log(Elfos);
+  /* console.log('cut', cut); */
+  var Elves = cut.map((v) => v.split(/[\s(r\n\r)(\r\n)\r)]+/));
+  console.log(Elves);
 
-  /* console.log('------------------------------');
-  console.log('Caloria de cada Elfo'); */
+  console.log('------------------------------');
+  console.log('Caloria de cada Elfo');
 
-  numElfos = Elfos.map((calorias) => {
+  numElfos = Elves.map((calorias) => {
     var numCalorias = calorias.map((caloria) => Number(caloria));
-    console.log('console dentro do map', calorias);
+    console.log('Elves', calorias);
 
     return numCalorias;
   });
@@ -32,12 +32,18 @@ fs.readFile('./exemple.txt', 'utf8', (err, data) => {
     return sum;
   }
 
-  var caloriasSomadas = numElfos.map((calorias) =>
-    somaArraydeNumeros(calorias)
-  );
-  console.log('total', caloriasSomadas);
+  caloriasSomadas = numElfos.map((calorias) => somaArraydeNumeros(calorias));
+  console.log('Total calories for each elf:', caloriasSomadas);
 
-  console.log(Math.max.apply(null, caloriasSomadas(caloria)));
+  console.log('Maior caloria:', Math.max.apply(null, caloriasSomadas));
+  /*
+  function findtopthree(array) {
+    for(var i = 0; i < array; i++) {
+      if (i++ > i) {
+        
+      }
+    }
+  } */
 });
 /*
 1. Capturar dados de calorias
