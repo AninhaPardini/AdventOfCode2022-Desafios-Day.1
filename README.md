@@ -2,7 +2,9 @@
 
 Fiz em duas partes o estudo desse desafio, por ser iniciante demorei cerca de 7 dias(ou mais, desisti de contar kk) pra achar a solução, com a ajuda do @tsugami ficou mil vezes melhor de entender, deixei abaixo os vídeos que ele me passou para entender este desafio melhor ^^
 
+Scope no JS: https://www.youtube.com/watch?v=klgtCYfpYyU
 Curso em video - Repetições: https://www.youtube.com/watch?v=3emz6rpcJyA&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm&index=19
+
 10 funções array: https://www.youtube.com/watch?v=-f5E5Lhocuo
 
 O primeiro js chamado FirstForm é claramente, a primeira forma que encontrei para trabalhar meu código e achar a solução, e o Improved foi a forma com que me deparei para melhorá-lo, vi em um vídeo de um gringo onde ele colocava dentro de funções para deixar o código mais organizado.
