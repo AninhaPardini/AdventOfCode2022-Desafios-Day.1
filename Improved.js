@@ -2,11 +2,7 @@ const fs = require('fs');
 
 // Import input
 let origin;
-try {
-  origin = fs.readFileSync('./Calories/input.txt', 'utf8');
-} catch (err) {
-  console.error(err);
-}
+origin = fs.readFileSync('./Calories/input.txt', 'utf8');
 
 // Split the list into an array
 strGroups = origin.split('\n\r').map((v) => v.replace('\n', ''));
