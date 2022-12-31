@@ -25,8 +25,8 @@ Vídeo do gringo: https://www.youtube.com/watch?v=uSTn97A4WWQ&t=186s
   - For: gerei um arrow funciton que contém um for que passa por todos os itens
   - let ElvesNumber: Armazenei nessa variável a função que tratou e tranformou meus dados em número e adicionei como parâmetro a função strGroups. - Irei mudar para reduce em breve.
 
-- Sobre o reduce usei: https://www.youtube.com/watch?v=O_bSjsLga48
+- Sobre o reduce assisti esse video: https://www.youtube.com/watch?v=O_bSjsLga48
 
 ## Conclusões
 
-Com esse desafio eu consegui upar muito js e principalmente na lógica que ainda me assombra muito, pretendo continuar datando todas as minhas evoluções aqui e evoluindo mais ainda esse código.
+Com esse desafio eu consegui upar muito no js e principalmente na lógica que ainda me assombra muito, pretendo continuar datando todas as minhas evoluções aqui e evoluindo mais ainda esse código.
